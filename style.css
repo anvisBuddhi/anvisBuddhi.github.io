@@ -30,7 +30,7 @@ a:hover {
 
 #banner{
 	text-align: center;
-	background: url(images/mirror.jpeg) no-repeat center top ;
+	background: url(images/think.jpeg) no-repeat;
     background-size: cover;
 	/*border-radius: 5px;*/
     box-shadow: 1px 1px 3px rgb(226, 220, 226);

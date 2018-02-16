@@ -1,0 +1,81 @@
+body{
+	color: #383B43;
+	background-color: #F8F9FA;
+	font-family: 'Open Sans', sans-serif;
+
+	/*To kill margin(sometimes chrome left a margin, for 
+		example picture in landing page is not full to the ends)*/
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: none;
+	color: green;
+}
+
+#banner{
+	text-align: center;
+	background: url(images/mirror.jpeg) no-repeat center top ;
+    background-size: cover;
+	/*border-radius: 5px;*/
+    box-shadow: 1px 1px 3px rgb(226, 220, 226);
+    padding: 150px 0;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+#banner p {
+	font-size: 30px;
+    /*little bit lighter color then main h1*/
+	font-weight: lighter;
+    /*put some transparency*/
+	opacity: 0.7;
+}
+
+.navbar-light .navbar-brand {
+	color: #383B43;
+}
+
+/*for gallery.html*/
+
+img {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+}
+
+.img-gallery {
+	/*Activates flexbox*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+}
+
+/*For signForm.html*/
+
+.instagram{ 
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+
+a {
+	color: white;
+}

@@ -41,6 +41,9 @@ hr{
 	#content{
 	  margin-top:45%;
 	}
+	hr{
+	  width:200px;
+	}
 }
 
 

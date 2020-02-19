@@ -1,6 +1,6 @@
 body{
 	font-family: 'Lato', sans-serif;
-	background:#72A98F;
+	background:#8ac6d1;
 }
 
 #content{
@@ -13,7 +13,7 @@ body{
 }
 
 h1{	
-	font-size: 5rem;
+	font-size: 6rem;
 	font-weight: 700;
 }
 
@@ -23,6 +23,15 @@ hr{
 	/* And some Colt's tricks*/
 	border-top: 1px solid #f8f8f8f8;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+@media(max-width:768px){
+	h1{
+	  font-size:2rem;
+	}
+	h3{
+	  font-size:1rem;
+	}
 }
 
 

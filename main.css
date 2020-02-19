@@ -1,0 +1,38 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background:#72A98F;
+}
+
+#content{
+	margin-top: 25%;
+	color: white;
+	letter-spacing: 4.5px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+			 	 0px 8px 13px rgba(0,0,0,0.1),
+			 	 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h1{	
+	font-size: 5rem;
+	font-weight: 700;
+}
+
+hr{
+	/*make Horizontal break not so wide*/
+	width: 400px;
+	/* And some Colt's tricks*/
+	border-top: 1px solid #f8f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
